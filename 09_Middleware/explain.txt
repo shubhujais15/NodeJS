@@ -1,0 +1,43 @@
+Express is a routing and middleware web framework that has minimal functionality of its own.
+An Express application is essentially a series of middleware function calls.
+
+
+Middleware functions are functions that have access to the request obj, response obj, and the next middleware function in the application's req-res cycle.
+The next middleware function is commonly denoted by a variable named next.
+
+
+Middleware functions can perform the following tasks:
+
+Execute any code.
+Make changes to the request and the response objects.
+End the request-response cycle.
+Call the next middleware function in the stack.
+If the current middleware function does not end the request-response cycle, it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.
+
+An Express application can use the following types of middleware:
+
+Application-level middleware
+Router-level middleware
+Error-handling middleware
+Built-in middleware
+Third-party middleware
+
+
+
+
+app.use((req, res, next) => {
+  console.log('Time:', Date.now())
+  next()
+})
+
+
+***** Install nodemon (npm i nodemon)
+It helps to refresh server automatically after changes
+
+
+Headers :-
+HTTP Headers are an important part of the Api request and responses as they represent the meta data
+associated with the Api request and response
+
+Headers carry information for the request and response body.
+

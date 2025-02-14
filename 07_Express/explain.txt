@@ -1,0 +1,23 @@
+Express is a framework
+
+Basic structure :-
+
+require('express')
+const app = express();
+app.listen(Port, ()=>{})
+
+
+
+Basic routing :- 
+
+app.method(Path, Handler)
+
+app - Is an instance of express
+Method - is an http req method, in lowecase
+Path - is path on the server
+Handler - Is the function executed when the route is matched
+
+
+Also in express we do not need to install additional package as url
+To distribute query params
+Express automatically do all such things itself
