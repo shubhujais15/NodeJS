@@ -1,0 +1,6 @@
+Http Methods :- 
+GET - To get data
+POST - To send data
+PUT - To send files
+PATCH - To update data
+DELETE - To delete data
