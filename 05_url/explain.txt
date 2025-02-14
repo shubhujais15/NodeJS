@@ -1,0 +1,27 @@
+url - Uniform Resource Locator
+https - Hypertext transfer protocol secure
+Domain - user friendly name of Ip address
+
+https://www.google.com/
+protocol - https://
+domain - www.google.com
+path - /
+
+
+
+https://www.google.com/project/1
+nested path - /project/1
+
+
+
+
+https://www.google.com/about?userId=1&name=me
+path - /about
+queryparam - userId=1&name=me
+seperate qp using and
+adding space in qp using +
+
+
+
+requrie('http') - Isko ni pta hota ki ? ke baad qp hai 
+So we use external package (npm i url)

@@ -1,0 +1,16 @@
+NodeJS :-
+
+Javascript is executed under browser bcz every browser has engine which is javaScript engine...
+Chrome has V8 engine
+
+Ryan Dahl is developer of NodeJS
+He embeded V8 engine with c++ -- Isko krne se hmare paas benefits ye h...
+We can run JS outside of browser
+Javascript can talk to native machine because of c++. Ex - file handling
+we can create webservers in JS language
+
+
+NodeJS is neither framework or library....It is runtime Environment for Javascript.
+
+
+If we want to run js code on command prompt so first we initialise Node by writing Node
