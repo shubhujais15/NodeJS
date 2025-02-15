@@ -1,0 +1,21 @@
+MVC :-
+Model View Controller
+
+
+User route ko call krta h route controller ko call krta hai controller model ko change krta hai
+
+
+For Mongo Connection steps :-
+
+MongoDb connection create kro
+Schema Create kro
+Model Bnao
+
+
+index.js Flow :- 
+
+MongoDb connection
+Middleware plugin
+Middleware function
+route
+app.listen

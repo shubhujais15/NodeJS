@@ -1,0 +1,19 @@
+Open terminal
+mongosh - to start mongodb server
+
+show dbs
+use <db_name>
+show collections
+db.coll.find()
+db.coll.insert()
+
+
+
+-- For connection node with mongodb
+
+npm i mongoose
+
+
+Schema - Define the structure
+    Schema - Model
+    Using Model we do CRUD operation
