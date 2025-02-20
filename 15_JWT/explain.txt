@@ -1,0 +1,34 @@
+npm install uuid - for cookies
+npm i cookie-parser
+npm i jsonwebtoken
+
+First created a user schema in models
+
+StateFull authentication is memory intensive means it uses server memory, so it logged out user when there is refresh of server
+          It is done using SessionId
+          Banking websites using SessionId bcz they logged in their users for short time
+
+
+StateLess - Iske paas state ni hoti for example server ek ticket generate krta h for a particular user and usi pe state ke sath ek stamp lga deta jisko change ni kiya ja skta for verfication
+            jO ticket generate krega server uspe sare actual data ko rkh dega jise hum dekh to skte h bt manipulate ni kr skte 
+            For this we use JWT Token - JSON WEB TOKENS
+
+
+SessionId Id tutant expire ho jati h jb logout krte h ya server refresh krte h
+But token Id kch time tk valid rehti h so token id ko secure rkhna chahiye
+
+
+
+cookies are domain specific means agar ek browser cookie  bnata h google.com ke liye and ek ar cookie bnata h facbook ke liye
+then again mai jb google pe jaunga to google wali hi cookie jayegi request ke sath
+
+cookie sirf browser me hi use kr skte h mob me nhi
+
+so second way to create token using "res"
+cookie koi v req ke sath automatically pass ho jata hai bcz of browser behavior\
+but res ke through baar baar bhejna pdega Token so is prblm ko resolve krne ke liye
+Ek header create krenge and usme token pass kr denge then sare req ke sath token automatically chla jayega as header to authentication easy ho jyega
+
+
+Authorization: auth_sceme <token>
+Authorization: Bearer <token>

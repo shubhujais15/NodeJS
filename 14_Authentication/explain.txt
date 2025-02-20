@@ -1,0 +1,13 @@
+npm install uuid - for cookies
+npm i cookie-parser
+npm i jsonwebtoken
+
+First created a user schema in models
+
+StateFull authentication is memory intensive means it uses server memory, so it logged out user when there is refresh of server
+
+StateLess - Iske paas state ni hoti for example server ek ticket generate krta h for a particular user and usi pe state ke sath ek stamp lga deta jisko change ni kiya ja skta for verfication
+            jO ticket generate krega server uspe sare actual data ko rkh dega jise hum dekh to skte h bt manipulate ni kr skte 
+            For this we use JWT Token - JSON WEB TOKENS
+
+
